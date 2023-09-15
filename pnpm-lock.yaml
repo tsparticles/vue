@@ -103,8 +103,8 @@ importers:
         specifier: ^3.0.3
         version: 3.0.3
       vue-loader:
-        specifier: ^15.10.2
-        version: 15.10.2(css-loader@4.3.0)(prettier@3.0.3)(vue-template-compiler@2.7.14)(webpack@4.47.0)
+        specifier: ^17.0.0
+        version: 17.2.2(vue@2.7.14)(webpack@4.47.0)
       vue-template-babel-compiler:
         specifier: ^2.0.0
         version: 2.0.0(vue-template-compiler@2.7.14)
@@ -281,8 +281,8 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
       vue-loader:
-        specifier: ^15.10.2
-        version: 15.10.2(css-loader@4.3.0)(prettier@3.0.3)(vue-template-compiler@2.7.14)(webpack@4.47.0)
+        specifier: ^17.0.0
+        version: 17.2.2(vue@2.7.14)(webpack@4.47.0)
       vue-template-compiler:
         specifier: ^2.7.14
         version: 2.7.14
@@ -5541,7 +5541,7 @@ packages:
       clipboardy: 2.3.0
       cliui: 7.0.4
       copy-webpack-plugin: 9.1.0(webpack@5.88.2)
-      css-loader: 6.8.1(webpack@5.88.2)
+      css-loader: 6.8.1(webpack@4.47.0)
       css-minimizer-webpack-plugin: 3.4.1(webpack@5.88.2)
       cssnano: 5.1.15(postcss@8.4.29)
       debug: 4.3.4
@@ -8577,7 +8577,7 @@ packages:
       webpack: 4.47.0
     dev: false
 
-  /css-loader@6.8.1(webpack@5.88.2):
+  /css-loader@6.8.1(webpack@4.47.0):
     resolution: {integrity: sha512-xDAXtEVGlD0gJ07iclwWVkLoZOpEvAWaSyf6W18S2pOC//K8+qUDIx8IIT3D+HjnmkJPQeesOPv5aiUaJsCM2g==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
@@ -8591,7 +8591,7 @@ packages:
       postcss-modules-values: 4.0.0(postcss@8.4.29)
       postcss-value-parser: 4.2.0
       semver: 7.5.4
-      webpack: 5.88.2
+      webpack: 4.47.0
     dev: true
 
   /css-minimizer-webpack-plugin@3.4.1(webpack@5.88.2):
@@ -15961,6 +15961,7 @@ packages:
 
   /prr@1.0.1:
     resolution: {integrity: sha512-yPw4Sng1gWghHQWj0B3ZggWUm4qVbPwPFcRG8KyxiU7J2OHFSoEHKS+EZ3fv5l1t9CyCiop6l/ZYeWbrgoQejw==}
+    requiresBuild: true
 
   /pseudomap@1.0.2:
     resolution: {integrity: sha512-b/YwNhb8lk1Zz2+bXXpS/LK9OisiZZ1SNsSLxN1x2OXVEhW2Ckr/7mWE5vrC1ZTiJlD9g19jWszTmJsB+oEpFQ==}
@@ -19017,90 +19018,6 @@ packages:
       - whiskers
     dev: false
 
-  /vue-loader@15.10.2(css-loader@4.3.0)(prettier@3.0.3)(vue-template-compiler@2.7.14)(webpack@4.47.0):
-    resolution: {integrity: sha512-ndeSe/8KQc/nlA7TJ+OBhv2qalmj1s+uBs7yHDRFaAXscFTApBzY9F1jES3bautmgWjDlDct0fw8rPuySDLwxw==}
-    peerDependencies:
-      '@vue/compiler-sfc': ^3.0.8
-      cache-loader: '*'
-      css-loader: '*'
-      prettier: '*'
-      vue-template-compiler: '*'
-      webpack: ^3.0.0 || ^4.1.0 || ^5.0.0-0
-    peerDependenciesMeta:
-      '@vue/compiler-sfc':
-        optional: true
-      cache-loader:
-        optional: true
-      prettier:
-        optional: true
-      vue-template-compiler:
-        optional: true
-    dependencies:
-      '@vue/component-compiler-utils': 3.3.0(pug@3.0.2)
-      css-loader: 4.3.0(webpack@4.47.0)
-      hash-sum: 1.0.2
-      loader-utils: 1.4.2
-      prettier: 3.0.3
-      vue-hot-reload-api: 2.3.4
-      vue-style-loader: 4.1.3
-      vue-template-compiler: 2.7.14
-      webpack: 4.47.0
-    transitivePeerDependencies:
-      - arc-templates
-      - atpl
-      - babel-core
-      - bracket-template
-      - coffee-script
-      - dot
-      - dust
-      - dustjs-helpers
-      - dustjs-linkedin
-      - eco
-      - ect
-      - ejs
-      - haml-coffee
-      - hamlet
-      - hamljs
-      - handlebars
-      - hogan.js
-      - htmling
-      - jade
-      - jazz
-      - jqtpl
-      - just
-      - liquid-node
-      - liquor
-      - lodash
-      - marko
-      - mote
-      - mustache
-      - nunjucks
-      - plates
-      - pug
-      - qejs
-      - ractive
-      - razor-tmpl
-      - react
-      - react-dom
-      - slm
-      - squirrelly
-      - swig
-      - swig-templates
-      - teacup
-      - templayed
-      - then-jade
-      - then-pug
-      - tinyliquid
-      - toffee
-      - twig
-      - twing
-      - underscore
-      - vash
-      - velocityjs
-      - walrus
-      - whiskers
-    dev: true
-
   /vue-loader@15.10.2(css-loader@6.8.1)(prettier@3.0.3)(vue-template-compiler@2.7.14)(webpack@5.88.2):
     resolution: {integrity: sha512-ndeSe/8KQc/nlA7TJ+OBhv2qalmj1s+uBs7yHDRFaAXscFTApBzY9F1jES3bautmgWjDlDct0fw8rPuySDLwxw==}
     peerDependencies:
@@ -19121,7 +19038,7 @@ packages:
         optional: true
     dependencies:
       '@vue/component-compiler-utils': 3.3.0(pug@3.0.2)
-      css-loader: 6.8.1(webpack@5.88.2)
+      css-loader: 6.8.1(webpack@4.47.0)
       hash-sum: 1.0.2
       loader-utils: 1.4.2
       prettier: 3.0.3
@@ -19183,6 +19100,25 @@ packages:
       - velocityjs
       - walrus
       - whiskers
+    dev: true
+
+  /vue-loader@17.2.2(vue@2.7.14)(webpack@4.47.0):
+    resolution: {integrity: sha512-aqNvKJvnz2A/6VWeJZodAo8XLoAlVwBv+2Z6dama+LHsAF+P/xijQ+OfWrxIs0wcGSJduvdzvTuATzXbNKkpiw==}
+    peerDependencies:
+      '@vue/compiler-sfc': '*'
+      vue: '*'
+      webpack: ^4.1.0 || ^5.0.0-0
+    peerDependenciesMeta:
+      '@vue/compiler-sfc':
+        optional: true
+      vue:
+        optional: true
+    dependencies:
+      chalk: 4.1.2
+      hash-sum: 2.0.0
+      vue: 2.7.14
+      watchpack: 2.4.0
+      webpack: 4.47.0
     dev: true
 
   /vue-loader@17.2.2(vue@2.7.14)(webpack@5.88.2):

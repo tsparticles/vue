@@ -54,7 +54,7 @@
     "rollup-plugin-vue": "^5.1.9",
     "tslib": "^2.6.2",
     "typescript": "^5.2.2",
-    "vue-loader": "^15.10.2",
+    "vue-loader": "^17.0.0",
     "vue-template-compiler": "^2.7.14",
     "webpack": "^4.46.0"
   }

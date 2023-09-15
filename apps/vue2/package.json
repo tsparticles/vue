@@ -41,7 +41,7 @@
     "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-typescript": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
-    "babel-loader": "^8.3.0",
+    "babel-loader": "^9.0.0",
     "eslint": "^8.49.0",
     "eslint-config-prettier": "^9.0.0",
     "fork-ts-checker-webpack-plugin": "^8.0.0",

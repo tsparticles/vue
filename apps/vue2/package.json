@@ -44,7 +44,7 @@
     "babel-loader": "^8.3.0",
     "eslint": "^8.49.0",
     "eslint-config-prettier": "^9.0.0",
-    "fork-ts-checker-webpack-plugin": "^8.0.0",
+    "fork-ts-checker-webpack-plugin": "^9.0.0",
     "postcss": "^8.4.29",
     "prettier": "^3.0.3",
     "rollup": "^2.79.1",

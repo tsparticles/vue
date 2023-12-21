@@ -1,13 +1,8 @@
 <script setup lang="ts">
 import configs from "@tsparticles/configs";
-import type { Container, Engine } from "@tsparticles/engine";
-import { loadFull } from "tsparticles";
+import type { Container } from "@tsparticles/engine";
 
 const options = configs.basic;
-
-const particlesInit = async (engine: Engine) => {
-  await loadFull(engine);
-};
 
 const particlesLoaded = async (container: Container) => {
   console.log(container);
@@ -17,10 +12,9 @@ const particlesLoaded = async (container: Container) => {
 <template>
   <main>
     <vue-particles
-      id="tsparticles"
-      :options="options"
-      :particles-init="particlesInit"
-      @particles-loaded="particlesLoaded"
+        id="tsparticles"
+        :options="options"
+        @particles-loaded="particlesLoaded"
     />
   </main>
 </template>

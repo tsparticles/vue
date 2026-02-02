@@ -7,8 +7,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@commitlint/cli": "^17.7.1",
-    "@commitlint/config-conventional": "^17.7.0",
+    "@commitlint/cli": "^20.0.0",
+    "@commitlint/config-conventional": "^20.0.0",
     "husky": "^8.0.3",
     "lerna": "^7.3.0"
   },
